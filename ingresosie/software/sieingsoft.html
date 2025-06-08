@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es-LA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIE Ingenieria en Software</title>
+    
+    <link rel="stylesheet" href="sieingsoft.css">
+</head>
+<body>
+    
+    <header>
+        <h1>SIE</h1>
+        <h2>Sistema de Integración Estudiantil</h2>
+    </header>
+
+    <main>
+        <section class="login-box">
+            <h3>Ingeniería en Software</h3>
+
+            <img src="img/logo.png" alt="Logo del Sistema de Información Estudiantil" class="logo">
+
+            <form id="formularioLogin" action="validacion_software.php" method="post">
+
+                <label for="matricula">Matricula</label>
+                <input type="text" id="matricula" name="matricula" placeholder="Escribe tu matricula aquí" required>
+
+                <label for="clave">Contraseña</label>
+                <input type="password" id="clave" name="clave" placeholder="Escribe tu contraseña aquí" required>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Sistema de Integración Estudiantil &copy; 2025. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
