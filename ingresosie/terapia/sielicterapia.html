@@ -8,21 +8,33 @@
     <link rel="stylesheet" href="sielicterapia.css">
 </head>
 <body>
-    <h1>SIE</h1>
-    <h2>Sistema de Información Estudiantil</h2>
-    <p>Este es un sistema para gestionar la información de los estudiantes.</p>
 
-    <form id="formularioLogin" action="validacion_terapia.php" method="post">
-        
-        <label for="matricula">Matricula</label>
-        <input type="text" id="matricula" name="matricula" placeholder="Escribe tu matricula aquí">
+    <header>
+        <h1>SIE</h1>
+        <h2>Sistema de Integración Estudiantil</h2>
+    </header>
 
-        <label for="clave">Contraseña</label>
-        <input type="password" id="clave" name="clave" placeholder="Escribe tu contraseña aquí">
-        <button type="submit">Enviar</button>
-    </form>
+    <main>
+        <section class="login-box">
+            <h3>Licenciatura en Terapia Física</h3>
+
+            <img src="img/logo.png" alt="Logo del Sistema de Información Estudiantil" class="logo">
+
+            <form id="formularioLogin" action="validacion_terapia.php" method="post">
+                
+                <label for="matricula">Matricula</label>
+                <input type="text" id="matricula" name="matricula" placeholder="Escribe tu matricula aquí">
+
+                <label for="clave">Contraseña</label>
+                <input type="password" id="clave" name="clave" placeholder="Escribe tu contraseña aquí">
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+   
     <footer>
-        <p>Sistema de Información Estudiantil &copy; 2023. Todos los derechos reservados.</p>
+        <p>Sistema de Integración Estudiantil &copy; 2025. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
